@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Founder's Note | 박인택</title>
+    <style>
+        /* Minimalist & Academic Style */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.75;
+            color: #222;
+            background-color: #fff;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 70px 20px;
+        }
+
+        /* Layout */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 60px;
+        }
+
+        .content { flex: 1; }
+        
+        /* Profile Section (Right Side) */
+        .profile-section {
+            flex: 0 0 240px;
+            text-align: right; 
+            position: sticky;
+            top: 40px;
+        }
+        
+        .profile-section img {
+            width: 180px; 
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        .name { font-size: 1.6rem; font-weight: 800; margin: 0; letter-spacing: -0.5px; }
+        .role { font-size: 0.95rem; color: #555; margin-bottom: 25px; font-weight: 500; }
+        .links a { display: block; color: #666; text-decoration: none; font-size: 0.9rem; margin-bottom: 6px; transition: color 0.2s;}
+        .links a:hover { text-decoration: underline; color: #000; }
+
+        /* Typography & Content Styles */
+        h1 { font-size: 2.2rem; margin-bottom: 10px; font-weight: 800; letter-spacing: -1px; }
+        
+        h2 { 
+            font-size: 1.3rem; 
+            font-weight: 700; 
+            margin-top: 50px; 
+            margin-bottom: 20px; 
+            border-bottom: 2px solid #000; 
+            padding-bottom: 8px;
+            display: inline-block;
+            letter-spacing: -0.3px;
+        }
+        
+        p { margin-bottom: 15px; word-break: keep-all; color: #333; }
+        
+        /* List Style: Numbers */
+        ol { 
+            padding-left: 20px; 
+            margin-bottom: 25px; 
+            list-style-type: decimal;
+        }
+        ol li { 
+            margin-bottom: 12px; 
+            color: #333; 
+            padding-left: 5px;
+        }
+        
+        b, strong { font-weight: 700; color: #000; }
+
+        /* Special Components */
+        .main-quote {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #000;
+            border-left: 4px solid #000;
+            padding-left: 20px;
+            margin: 30px 0;
+            line-height: 1.6;
+            background-color: #fcfcfc;
+            padding: 20px;
+        }
+
+        .equation {
+            font-family: "Courier New", Courier, monospace;
+            background: #f4f4f4;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        /* Sub-quote (Indented) */
+        .sub-quote {
+            margin-top: 8px;
+            margin-bottom: 15px;
+            padding-left: 15px;
+            border-left: 3px solid #eee;
+            color: #555;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        /* Reference Section Style */
+        .reference-section {
+            margin-top: 60px; 
+            padding-top: 30px; 
+            border-top: 1px solid #eee; 
+            font-size: 0.85rem; 
+            color: #666;
+        }
+        
+        .reference-list {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 10px;
+        }
+        .reference-list li { margin-bottom: 4px; color: #666; }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .container { flex-direction: column-reverse; }
+            .profile-section { width: 100%; text-align: left; position: static; margin-bottom: 40px; }
+            .profile-section img { max-width: 180px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="content">
+            
+            <div class="main-quote">
+                "미래를 예측할 수 없을수록, <b>변하지 않는 것</b>에 집중하라." <br>
+                <small style="font-weight: 400; color: #666;">— Jeff Bezos</small>
+            </div>
+
+            <p>
+                <b>마케팅(Marketing)</b>이란, 기업이 생산한 제품을 고객마다 다른 '지불 의사 가격'을 반영해 제값을 받고 판매하여, 기업의 이윤을 극대화하는 것입니다.
+            </p>
+
+            <h2>Product Philosophy</h2>
+            <p>
+                <b>WOW</b>를 주는 것. 유저가 아무런 노력을 하지 않아도 문제가 해결되는 '마법 같은 순간'에 찐팬이 형성됩니다.
+            </p>
+            <ol>
+                <li>비타민이 아닌, <b>페인킬러(Painkiller)</b>. 10x Better.</li>
+                <li>어떤 문제를, 시장의 어떤 관행을 끝내나?</li>
+                <li><b>미래를 앞당기는 제품</b>을 만든다.</li>
+                <li>이 아이템이 <b>시장의 마지막 제품</b>이라는 마음가짐으로.</li>
+                <li><i>"The best ideas often look terrible and sound crazy at first."</i></li>
+            </ol>
+
+            <h2>Market & Customer</h2>
+            <p>가장 중요한 건 고객의 진심입니다. 그들이 아직도 불편해하는 것은 무엇인가?</p>
+            <ol>
+                <li>
+                    우리 제품에 열광하는 소수의 <b>'찐팬'과 핵심 니즈</b>에서 시작합니다.
+                    <div class="sub-quote">
+                        "많은 사람이 '좋아하는' 제품을 '사랑하게' 만드는 것보다,<br>
+                        <b>소수가 이미 '사랑하는' 제품을 확장하는 것이 훨씬 쉽다.</b>"
+                    </div>
+                </li>
+                <li><b>Loss aversion.</b> 우리는 이득을 주는 것보다 손실을 줄여주는 것을 더 선호합니다.</li>
+                <li> <b>Purchase = Cost < Expected Utility (Transaction + Product)</b></li>
+            </ol>
+
+            <div class="reference-section">
+                <b>Reference</b>
+                <ul class="reference-list">
+                    <li>YouTube: <a href="https://youtu.be/CBYhVcO4WgI?si=4ko7r3SJ957uJ6IZ" target="_blank" style="color:#666; text-decoration: underline;">“How to Start a Startup” – Y Combinator</a></li>
+                    <li>YouTube: <a href="https://youtu.be/OMFBXEvSGp8?si=g9X9GkuzCIifQs_E" target="_blank" style="color:#666; text-decoration: underline;">29년 동안 알토스벤처스가 지킨 스탠포드의 3가지 투자원칙</a></li>
+                    <li>YouTube: <a href="https://youtu.be/w5BhMyT_GEk?si=fr10H-lDZflNVpft" target="_blank" style="color:#666; text-decoration: underline;">비즈카페 사업은 이렇게 하는거다</a></li>
+                    <li>Eric Ries, <i>The Lean Startup</i></li>
+                    <li>Peter Thiel, <i>Zero to One</i></li>
+                    <li>Gary Keller & Jay Papasan, <i>The ONE Thing</i></li>
+                    <li>Reed Hastings & Erin Meyer, <i>No Rules Rules</i></li>
+                    <li>Colin Bryar & Bill Carr, <i>Working Backwards</i></li>
+                    <li>Ben — <a href="https://www.bnjs.co/" target="_blank" style="color:#666; text-decoration: underline;">Original blog posts, translations, and curated startup notes</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="profile-section">
+            <img src="박인택.jpg" alt="Profile Photo">
+            
+            <h1 class="name">박인택<br><span style="font-size: 1.2rem; font-weight: 500; color: #888;">Intaek Park</span></h1>
+            <div class="role">Sales & Growth / PM</div>
+            
+            <div class="links">
+                <a href="https://www.linkedin.com/in/%EC%9D%B8%ED%83%9D-%EB%B0%95-61b99a21a/" target="_blank">LinkedIn</a>
+                <a href="mailto:dlsxor519@snu.ac.kr">dlsxor519@snu.ac.kr</a>
+
+    </div>
+
+</body>
+</html>
